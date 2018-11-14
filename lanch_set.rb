@@ -32,10 +32,19 @@ class Lanch
 end
 
 class Main
+  def name
+    p "白米"
+  end
 end
 
 class Salada
+  def name
+    p "和風サラダ"
+  end
 end
 
 class Drink
+  def name
+    p "ウーロン茶"
+  end
 end
