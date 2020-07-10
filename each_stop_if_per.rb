@@ -6,7 +6,7 @@ module Enumerable
       current_per = (index * (100 / all_size))
 
       if current_per < per
-        if size == (index + 1)
+        if all_size == index
           return block_given? ? yield(i, idx) : i
         end
 
